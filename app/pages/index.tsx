@@ -11,7 +11,6 @@ const Home = () => (
       <div className="logo">
         <img src="/logo.png" alt="blitz.js" />
       </div>
-      <h1>hi</h1>
       <p>
         Go to{" "}
         <Link href="/questions">
