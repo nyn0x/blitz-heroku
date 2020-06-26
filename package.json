@@ -7,7 +7,8 @@
     "studio": "blitz db studio",
     "build": "blitz db migrate && blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
-    "test": "echo \"No tests yet\""
+    "test": "echo \"No tests yet\"",
+    "postinstall": "npm run build"
   },
   "browserslist": [
     "defaults"
