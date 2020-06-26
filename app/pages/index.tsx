@@ -3,7 +3,7 @@ import { Head, Link } from "blitz"
 const Home = () => (
   <div className="container">
     <Head>
-      <title>noxy-cardz</title>
+      <title>test</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
@@ -11,17 +11,9 @@ const Home = () => (
       <div className="logo">
         <img src="/logo.png" alt="blitz.js" />
       </div>
-      <p>1. Run this command in your terminal:</p>
-      <pre>
-        <code>blitz generate all project name:string</code>
-      </pre>
-      <p>2. Then run this command:</p>
-      <pre>
-        <code>blitz db migrate</code>
-      </pre>
-
+      <h1>hi</h1>
       <p>
-        3. Go to{" "}
+        Go to{" "}
         <Link href="/questions">
           <a>/questions</a>
         </Link>
